@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #1c1c1c;
+  color: #fff;
+}
+
+header{
+  padding-top: 20px; 
+  padding-left: 20px;
+}
+
+.text {
+  padding: 10px;
+  background-color: #272727;
+  width: 60%;
+ 
+}
+
+#new-task-input {
+  background-color: #272727;
+  width: 60%;
+  padding: 10px;
+}
+
+input, button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+}
